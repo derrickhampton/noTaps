@@ -5,18 +5,17 @@
 			backgroundColor : 'white'
 		})
 
-		//Ti.API.info(_array)
 		_array = JSON.parse(_array)
 		Ti.API.info(_array.success)
 		
 		var backbutton = Titanium.UI.createButton({
-			//title : 'back',
-			height : '35dp',
+			title : 'back',
+			color: 'back',
+			height : '40dp',
 			width : '100%',
-			//top : '5dp',
-			bottom : '5dp',
-			borderRadius: 0
-			//left : '5dp',
+			bottom : '0dp',
+			borderRadius: 0,
+			backgroundImage: '/images/button-9183.png'
 		})
 		win.add(backbutton)
 
@@ -24,23 +23,24 @@
 			win.close()
 		})
 		var data = [];
+		var yyyarray = []
+		var countarray = _array.results.length
 		
-		for(var i = 0; i < _array.results.length; i++) {
+		for(var i = 0; i < countarray; i++) {
 		
 		item = _array.results[i]
-		
+		if(item.accountName!=""){
 			Ti.API.info('Waaooo')
 			// 
-			var sendid = [item.heading, item.body, item.images, item.price]
-
+			var sendid = [item.heading, item.body, item.images, item.price,item.accountName,item.latitudeEstimated,item.longitudeEstimated]
+			//alert(item.accountName)
 			var row = Ti.UI.createTableViewRow({
 				data : sendid
 			});
-
 			row.addEventListener('click', function(e) {
 				var item = e.rowData.data
 				Ti.API.info(item)
-				var detail_window = detail(item[0],item[1],item[2],item[3])
+				var detail_window = detail(item[0],item[1],item[2],item[3],item[4],item[5],item[6])
 				detail_window.open()
 				
 			})
@@ -70,10 +70,10 @@
 
 				//image : 'images/table/square_icon.png',
 				image : myImg,
-				left : '10dp',
+				left : '5dp',
 				top: '30dp',
-				height : '50dp',
-				width : '50dp',
+				height : '60dp',
+				width : '60dp',
 				//defaultImage: 'images/loader/default_image.jpg',
 			})
 			row.add(imgView);
@@ -145,7 +145,7 @@
 			//row.add(label4);
 
 			data[i] = row;
-		
+			}
 		}
 
 		var tableviewCoupons = Titanium.UI.createTableView({

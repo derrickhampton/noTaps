@@ -62,8 +62,15 @@
 		})
 
 		win.addEventListener('focus', function() {
-
+			
 		})
+		
+		
+		
+		Ti.App.addEventListener('changecity', function(data) { 
+     		cityinput.setText("  "+ data.name)
+		});
+		
 		var cityinput = Titanium.UI.createLabel({
 			text : '  Select city',
 			height : '50dp',
@@ -94,8 +101,8 @@
 		vview.add(search_button)
 
 		search_button.addEventListener('click', function(e) {
-
-			var url = "http://api.3taps.com/search?source=CRAIG&heading=" + current_year + "+AND+" + current_search + "&category=&rpp=3&VAUT&location=" + current_city_code + "&authID=fvgycnhm77ws3keyh7e4w82u";
+		//alert(current_city_code)
+			var url = "http://api.3taps.com/search?source=CRAIG&heading=" + current_year + "+AND+" + current_search + "&category=VAUT&rpp=15&&location=" + current_city_code + "&authID=fvgycnhm77ws3keyh7e4w82u";
 			//var url = "http://api.3taps.com/search?source=CRAIG&heading=GMC+AND+2011&category=VAUT&location=&authID=fvgycnhm77ws3keyh7e4w82u"
 			//var url = "http://api.3taps.com/search?source=CRAIG&heading=Porsche&category=VAUT&rpp=2&location=sac&authID=fvgycnhm77ws3keyh7e4w82u"
 			//var url = "http://localhost"
@@ -104,8 +111,25 @@
 				onload : function(e) {
 
 					Ti.API.info("Received text: ");
-					var tableview_window = tableviewwin(this.responseText)
-					tableview_window.open()
+					
+					var tableviewjson = this.responseText
+					
+					var testjson = this.responseText
+					testjson = JSON.parse(testjson)
+					
+					//alert(testjson.numResults)
+					//alert(testjson.success)
+					
+					
+					if(testjson.numResults<1){
+							alert("Nothing found")	
+					}else{
+						
+							var tableview_window = tableviewwin(tableviewjson)
+							tableview_window.open()
+					
+					}
+				
 
 				},
 				onerror : function(e) {
@@ -118,6 +142,15 @@
 			client.send();
 
 		})
+		
+		
+		var speechbutton = Titanium.UI.createButton({
+			title: 'Test',
+			height: '50dp',
+			width: '50dp',
+			top: '10dp'
+		})
+		
 		return win
 	}
 })()

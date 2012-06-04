@@ -5,61 +5,33 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 3.102590 seconds on emulator to get ready
-[INFO] Waiting for the Android Emulator to become available
+[DEBUG] waited 0.039090 seconds on emulator to get ready
 [DEBUG] com.crazyguys.notabs installed? False
 [INFO] Copying CommonJS modules...
 [INFO] Copying project resources..
-[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/appicon.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/appicon.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/default.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/app.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/app.js
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/city.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/city.js
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/dashboard.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/dashboard.js
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/images/background.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/images/background.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/images/field.jpg => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/images/field.jpg
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/images/field.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/images/field.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/KS_nav_ui.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/KS_nav_views.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/KS_nav_views.png
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/library.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/library.js
-[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/resultsview.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/resultsview.js
+[TRACE] COPYING MODIFIED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/appicon.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/Default.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/Default.png
+[TRACE] COPYING CREATED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/images/background copy.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/images/background copy.png
+[TRACE] COPYING MODIFIED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/images/background.png => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/images/background.png
+[TRACE] COPYING MODIFIED FILE: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/resultsview.js => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/resultsview.js
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
-[DEBUG] app stylesheet => /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ApplicationStylesheet.java
 [DEBUG] copying app icon: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/appicon.png
 [DEBUG] generating theme.xml
-[DEBUG] found drawable-long-land-hdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-land-hdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-long-land-hdpi/background.png
-[DEBUG] found drawable-long-land-ldpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-land-ldpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-long-land-ldpi/background.png
-[DEBUG] found drawable-long-port-hdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-port-hdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-long-port-hdpi/background.png
-[DEBUG] found drawable-long-port-ldpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-port-ldpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-long-port-ldpi/background.png
-[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-hdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-land-hdpi/background.png
-[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-ldpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-land-ldpi/background.png
-[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-mdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-land-mdpi/background.png
-[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-hdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-port-hdpi/background.png
-[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-ldpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-port-ldpi/background.png
-[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-mdpi/default.png
-[DEBUG] copying /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG] found splash screen at /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/assets/Resources/default.png
 [TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ApplicationStylesheet.java to javac build list
 [DEBUG] adding /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsActivity.java to javac build list
 [DEBUG] adding /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsAppInfo.java to javac build list
 [DEBUG] adding /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsApplication.java to javac build list
 [DEBUG] adding /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/R.java to javac build list
-[DEBUG] Building Java Sources: "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ApplicationStylesheet.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsActivity.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsAppInfo.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsApplication.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/R.java"
+[DEBUG] Building Java Sources: "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsActivity.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsAppInfo.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/ComCrazyguysNotabsApplication.java" "/Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/gen/com/crazyguys/notabs/R.java"
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
 [DEBUG] creating unsigned apk: /Users/ZEXEL/Documents/Titanium Studio Workspace/com.crazyguys.notabs/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/images/background copy.png
 [DEBUG] from resource zip => assets/Resources/images/background.png
+[DEBUG] from resource zip => assets/Resources/images/button.png
+[DEBUG] from resource zip => assets/Resources/images/contact.png
 [DEBUG] from resource zip => assets/Resources/images/field.jpg
 [DEBUG] from resource zip => assets/Resources/images/field.png
 [DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
@@ -69,6 +41,7 @@ Logfile initialized
 [DEBUG] from resource zip => assets/Resources/city.js
 [DEBUG] from resource zip => assets/Resources/dashboard.js
 [DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/Resources/detail.js
 [DEBUG] from resource zip => assets/Resources/library.js
 [DEBUG] from resource zip => assets/Resources/resultsview.js
 [DEBUG] from resource zip => assets/app.json
@@ -79,16 +52,6 @@ Logfile initialized
 [DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
 [DEBUG] from resource zip => AndroidManifest.xml
 [DEBUG] from resource zip => resources.arsc
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
 [DEBUG] from JAR /Users/ZEXEL/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
 [DEBUG] from JAR /Users/ZEXEL/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
 [DEBUG] from JAR /Users/ZEXEL/Library/Application Support/Titanium/mobilesdk/osx/2.0.1.GA2/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
@@ -112,6 +75,6 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.021687 seconds on emulator to get ready
+[DEBUG] waited 0.017383 seconds on emulator to get ready
 [INFO] Installing application on device
 [INFO] Application installed. Launch from drawer on Home Screen
